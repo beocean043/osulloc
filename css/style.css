@@ -71,10 +71,10 @@ article .swiper-slide:nth-child(4){background-image: url(../images/topslide_seja
 
 
     /* 인디케이터 */
-article .swiper {position: relative; width: 100%; height: 100%;}
-article .slide-con{width: 327px; margin: 288px 0 0 274px; white-space: nowrap; }
+article .swiper {position: relative; width: 100%; height: 100%; }
+article .slide-con{width: 327px; margin: 358px 0 0 274px; white-space: nowrap;}
 /* article .slide-con img{position: absolute; left: 0; top: 0; object-fit: fill; width: 100%;} */
-article .swiper-pagination {width: 327px !important; height: 3px !important; top: 538px !important; left: 274px !important;}
+article .swiper-pagination {width: 327px !important; height: 3px !important; top: 608px !important; left: 274px !important;}
 article .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {background: #000; position: absolute; width: 100%; height: 100%; transform: scale(0); transform-origin: left top; }
 
 
