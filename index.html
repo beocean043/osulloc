@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오설록</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <h1 class="logo">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </h1>
+        <nav class="left-menu">
+            <ul>
+                <li>
+                    <a href="#">티 제품</a>
+                </li>
+                <li>
+                    <a href="#">티 푸드</a>
+                </li>
+                <li>
+                    <a href="#">라이프스타일</a>
+                </li>
+                <li>
+                    <a href="#">브랜드</a>
+                </li>
+                <li>
+                    <a href="#">단체·기업</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="right-menu">
+            <ul>
+                <li>
+                    <a href="#"><img src="./images/icon_search.svg" alt="검색"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/icon_shopping.svg" alt="장바구나"></a>
+                </li>
+                <li>
+                    <a href="#">출석체크</a>
+                </li>
+                <li>
+                    <a href="#">마이페이지</a>
+                </li>
+                <li>
+                    <a href="#">로그인</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- 모바일 아이콘 -->
+     <div class="header-mobile">
+        <div class="header-hamburger">
+            <img src="./images/icon_menu.svg" alt="메뉴">
+        </div>
+        <div class="header-icon">
+            <a href="#"><img src="./images/icon_search.svg" alt="검색"></a>
+            <a href="#"><img src="./images/icon_shopping.svg" alt="장바구니"></a>
+        </div>
+     </div>
+    </header>
+
+    <!-- 슬라이드 -->
+    <article>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide-con">
+                    <span>04.15 ~ 04.30</span>
+                    <h3>차의 날을 맞이해<br>10일동안 진행되는 이벤트</h3>
+                    <p>매일매일 쿠폰 받고 오설록 flex하기!</p>
+                    <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-con">
+                    <span>04.10 ~ 04.28</span>
+                    <h3>마키토이 해차 올인원 세트<br>오픈 기념 특가!</h3>
+                    <p>오래 기다리셨습니다!<br>해차 올인원 세트를 지금 바로 살펴보세요.</p>
+                    <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-con">
+                    <span>04.10 ~ 04.28</span>
+                    <h3>오설록 x 마키토이<br>콜라보 에디션 출시</h3>
+                    <p>매일 그림을 그리는 마키토이 작가의<br>영감과 스타일이 담긴 오설록 베스트 셀러를 소개합니다!</p>
+                    <a href="#"></a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-con">
+                    <span>04.01 ~ 04.30</span>
+                    <h3>꽃과 함께하는<br>4월 출석체크</h3>
+                    <p>출석체크만으로 얻을 수 있는<br>4월의 혜택을 살펴보세요.</p>
+                    <a href="#"></a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </article>
+
+    <!-- 신제품 -->
+    <section id="new">  
+        <h2>새로운 제품</h2> 
+        <div class="product-row">
+            <div class="product main">
+                <img src="./images/none.png" alt="신제품 썸네일">
+            </div>
+            <div class="product thumb">
+                <a href="#" data-bg="./images/figchocolat.png">
+                    <img src="./images/new01.jpg"  alt="신제품01">
+                    <div class="new-con">
+                        <span>무화과 쇼콜라 블랙티</span>
+                        <span>11,000원</span>
+                        <p class="new-info">무르익은 무화과, 너티 초콜렛의 풍미를 담은 블렌디드 홍차차</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product thumb">
+                <a href="#" data-bg="./images/marron.png">
+                    <img src="./images/new02.jpg" alt="신제품02">
+                    <div class="new-con">
+                        <span>마롱 글라세 블랙티</span>
+                        <span>11,000원</span>
+                        <p class="new-info">고소하고 묵직한 밤의 풍미 가득한 블렌디드 홍차</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product thumb">
+                <a href="#" data-bg="./images/honeypeartea.png">
+                    <img src="./images/new03.jpg" alt="신제품03">
+                    <div class="new-con">
+                        <span>삼다 꿀배 티</span>
+                        <span>11,000원</span>
+                        <p class="new-info">달콤한 꿀을 품은 배의 향미가 가득한 블렌디드 티</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product thumb">
+                <a href="#" data-bg="./images/premiummatcha.png">
+                    <img src="./images/new04.jpg" alt="신제품04">
+                    <div class="new-con">
+                        <span>프리미엄 말차</span>
+                        <span>23,000원</span>
+                        <p class="new-info">어린 찻잎을 정성껏 갈아만든 깊은 풍미의 유기농 말차</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product thumb">
+                <a href="#" data-bg="./images/peach.png">
+                    <img src="./images/new06.jpg" alt="신제품05">
+                    <div class="new-con">
+                        <span>피치 캐모마일</span>
+                        <span>11,000원</span>
+                        <p class="new-info">산뜻한 꽃 향미에 복숭아의 달콤함이 어우러진 캐모마일 허브티</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product thumb">
+                <a href="#" data-bg="./images/matchabis.png">
+                    <img src="./images/new07.jpg" alt="신제품06">
+                    <div class="new-con">
+                        <span>말차 비스코티 칩</span>
+                        <span>14,000원</span>
+                        <p class="new-info">말차, 통밀, 견과류가 아낌없이! 두 번 구워내 더 바삭한 프리미엄 간식</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- 모바일 -->
+       <div class="new-mobile">
+        <div class="swiper mySwiper4">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">    
+                    <div class="img"><img src="./images/figchocolat.png" alt="신제품01"></div>
+                    <div class="product-con">
+                        <h4>무화과 쇼콜라 블랙티</h4>
+                        <h5 class="price">11,000원</h5>
+                        <p class="info">무르익은 무화과, 너티 초콜렛의 풍미를 담은 블렌디드 홍차</p>
+                    </div>        
+                    <a href="#" class="link"></a>
+                </div> 
+                <div class="swiper-slide">
+                    <div class="img"><img src="./images/marron.png" alt="신제품02"></div>
+                    <div class="product-con">
+                        <h4>마롱 글라세 블랙티</h4>
+                        <h5 class="price">170,000원</h5>
+                        <p class="info">고소하고 묵직한 밤의 풍미 가득한 블렌디드 홍차</p>
+                    </div>
+                    <a href="#" class="link"></a>                
+                </div>
+                <div class="swiper-slide">
+                    <div class="img"><img src="./images/honeypeartea.png" alt="신제품03"></div>
+                    <div class="product-con">
+                        <h4>삼다 꿀배 티</h4>
+                        <h5 class="price">11,000원</h5>
+                        <p class="info">달콤한 꿀을 품은 배의 향미가 가득한 블렌디드 티</p>
+                        <a href="#" class="link"></a>
+                    </div>                     
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">   <img src="./images/premiummatcha.png" alt="신제품04"></div>
+                    <div class="product-con">
+                        <h4>프리미엄 말차</h4>
+                        <h5 class="price">23,000원</h5>
+                        <p class="info">어린 찻잎을 정성껏 갈아만든 깊은 풍미의 유기농 말차</p>
+                    </div> 
+                    <a href="#" class="link"></a>                   
+                </div> 
+                <div class="swiper-slide">
+                    <div class="img"><img src="./images/peach.png" alt="신제품05"></div>
+                    <div class="product-con">
+                        <h4>피치 캐모마일</h4>
+                        <h5 class="price">11,000원</h5>
+                        <p class="info">산뜻한 꽃 향미에 복숭아의 달콤함이 어우러진 캐모마일 허브티</p>
+                    </div>
+                    <a href="#" class="link"></a>                     
+                </div> 
+                <div class="swiper-slide">    
+                    <div class="img"><img src="./images/matchabis.png" alt="신제품06"></div>
+                    <div class="product-con">
+                        <h4>말차 비스코티 칩</h4>
+                        <h5 class="price">14,000원</h5>
+                        <p class="info">말차, 통밀, 견과류가 아낌없이! 두 번 구워내 더 바삭한 프리미엄 간식</p>
+                    </div>
+                    <a href="#" class="link"></a>        
+                </div> 
+            </div> 
+            <hr>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill4" id="progressFill4"></div>
+        </div>
+       </div>
+    </section>
+
+    <!-- 베스트제품 -->
+    <section id="best">
+        <h2>베스트 제품</h2>
+        <div class="best-inner">
+            <div class="left-panel">
+                    <h3>오설록<br>베스트 제품</h3>
+                    <p>오설록만의 자연을 담은 차,<br>수많은 고객들이 선택한 인기 제품들로<br>차별화된 맛을 느껴보세요.</p>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+
+                    <div class="nav-buttons">
+                        <button id="prevBtn"></button>
+                        <button id="nextBtn"></button>
+                    </div>
+            </div>
+
+            <div class="swiper mySwiper3">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">    
+                        <div class="img"><img src="./images/ujeon.png" alt="우전 60g"></div>
+                        <div class="product-con">
+                            <h4>[2025년 골든픽] 우전 60g</h4>
+                            <h5 class="price">70,000원</h5>
+                            <p class="info">곡우 이전 첫물차 그대로 덖은 고급 우전차</p>
+                            <a href="#" class="link"></a>
+                        </div>        
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="img"><img src="./images/wholeyoungtea.png" alt="일로향 60g"></div>
+                        <div class="product-con">
+                            <h4>[2025년 골든픽] 일로향 60g</h4>
+                            <h5 class="price">170,000원</h5>
+                            <p class="info">청명 즈음, 제주 유기농 차밭의 첫 새싹만을 장인의 손길로 덖고 비벼 만든 수제 명차</p>
+                            <a href="#" class="link"></a>
+                        </div>                  
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img"><img src="./images/tangerineblosson10.png" alt="귤꽃향을 품은 우잣담 10입"></div>
+                        <div class="product-con">
+                            <h4>귤꽃향을 품은 우잣담 10입</h4>
+                            <div class="price-wrap">
+                                <h5 class="sale">30%</h5>
+                                <h5 class="price">10,500원</h5>
+                                <span class="regular-price">15,000원</span>
+                            </div>
+                            <p class="info">제주 귤꽃향의 싱그러움에 걈귤의 상큼함을 더한 블렌디드 티</p>
+                            <a href="#" class="link"></a>
+                        </div>                     
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img">   <img src="./images/camelliaforest.webp" alt="동백이 피는 곶자왈 10입"></div>
+                        <div class="product-con">
+                            <h4>동백이 피는 곶자왈 10입</h4>
+                            <div class="price-wrap">
+                                <h5 class="sale">20%</h5>
+                                <h5 class="price">13,200원</h5>
+                                <span class="regular-price">16,500원</span>
+                            </div>
+                            <p class="info">제주 동백꽃향과 열대과일의 달콤함이 만나 화려한 풍미가 매력적인 블렌디드 티</p>
+                            <a href="#" class="link"></a>
+                        </div>                     
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="img"><img src="./images/cherryblossom10.webp" alt="벚꽃향 가득한 올레 10입"></div>
+                        <div class="product-con">
+                            <h4>벚꽃향 가득한 올레 10입</h4>
+                            <div class="price-wrap">
+                                <h5 class="sale">20%</h5>
+                                <h5 class="price">13,200원</h5>
+                                <span class="regular-price">16,500원</span>
+                            </div>
+                            <p class="info">달콤상큼 화사한 제주 왕벚꽃 블렌디드티</p>
+                            <a href="" class="link"></a>
+                        </div>                     
+                    </div> 
+                    <div class="swiper-slide">    
+                        <div class="img"><img src="./images/figchocolat.png" alt="무화과 쇼콜라 블랙티 20입"></div>
+                        <div class="product-con">
+                            <h4>무화과 쇼콜라 블랙티 20입</h4>
+                            <h5 class="price">11,000원</h5>
+                            <p class="info">무르익은 무화과, 너티 초콜렛의 풍미를 담은 블렌디드 홍차</p>
+                            <a href="#" class="link"></a>
+                        </div>        
+                    </div> 
+                    <div class="swiper-slide">    
+                        <div class="img"><img src="./images/lovelyteabox.png" alt="러블리 티 박스 4종 12입"></div>
+                        <div class="product-con">
+                            <h4>러블리 티 박스 4종 12입</h4>
+                            <h5 class="price">24,000원</h5>
+                            <p class="info">나른한 오후, 달콤한 티타임을 위한 사랑스러운 티 박스</p>
+                            <a href="#" class="link"></a>
+                        </div>        
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="img"><img src="./images/sejak.png" alt="세작 10입"></div>
+                        <div class="product-con">
+                            <h4>세작 10입</h4>
+                            <div class="price-wrap">
+                                <h5 class="sale">30%</h5>
+                                <h5 class="price">11,900원</h5>
+                                <span class="regular-price">17,000원</span>
+                            </div>
+                            <p class="info">제주의 어린 찻잎으로만 만들어 감미로운 풍미와 고운 수색을 지닌 오설록 시그니처 녹차</p>
+                            <a href="#" class="link"></a>
+                        </div>                     
+                    </div> 
+                </div>
+                <hr>
+            </div>
+        </div>
+
+    <!-- 모바일 -->
+    <div id="best-mobile">
+       <div class="swiper mySwiper5">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">    
+                    <div class="img"><img src="./images/ujeon.png" alt="우전 60g"></div>
+                    <div class="product-con">
+                        <h4>[2025년 골든픽] 우전 60g</h4>
+                        <h5 class="price">70,000원</h5>
+                        <p class="info">곡우 이전 첫물차 그대로 덖은 고급 우전차</p>
+                    </div> 
+                    <a href="#" class="link"></a>          
+                </div> 
+                <div class="swiper-slide">
+                    <div class="img"><img src="./images/wholeyoungtea.png" alt="일로향 60g"></div>
+                    <div class="product-con">
+                        <h4>[2025년 골든픽] 일로향 60g</h4>
+                        <h5 class="price">170,000원</h5>
+                        <p class="info">청명 즈음, 제주 유기농 차밭의 첫 새싹만을 장인의 손길로 덖고 비벼 만든 수제 명차</p>
+                    </div>    
+                    <a href="#" class="link"></a>              
+                </div>
+                <div class="swiper-slide">
+                    <div class="img"><img src="./images/tangerineblosson10.png" alt="귤꽃향을 품은 우잣담 10입"></div>
+                    <div class="product-con">
+                        <h4>귤꽃향을 품은 우잣담 10입</h4>
+                        <div class="price-wrap">
+                            <h5 class="sale">30%</h5>
+                            <h5 class="price">10,500원</h5>
+                            <span class="regular-price">15,000원</span>
+                        </div>
+                        <p class="info">제주 귤꽃향의 싱그러움에 걈귤의 상큼함을 더한 블렌디드 티</p>
+                    </div>   
+                    <a href="#" class="link"></a>                     
+                </div>
+                <div class="swiper-slide">
+                    <div class="img">   <img src="./images/camelliaforest.webp" alt="동백이 피는 곶자왈 10입"></div>
+                    <div class="product-con">
+                        <h4>동백이 피는 곶자왈 10입</h4>
+                        <div class="price-wrap">
+                            <h5 class="sale">20%</h5>
+                            <h5 class="price">13,200원</h5>
+                            <span class="regular-price">16,500원</span>
+                        </div>
+                        <p class="info">제주 동백꽃향과 열대과일의 달콤함이 만나 화려한 풍미가 매력적인 블렌디드 티</p>
+                    </div> 
+                    <a href="#" class="link"></a>                       
+                </div> 
+                <div class="swiper-slide">
+                    <div class="img"><img src="./images/cherryblossom10.webp" alt="벚꽃향 가득한 올레 10입"></div>
+                    <div class="product-con">
+                        <h4>벚꽃향 가득한 올레 10입</h4>
+                        <div class="price-wrap">
+                            <h5 class="sale">20%</h5>
+                            <h5 class="price">13,200원</h5>
+                            <span class="regular-price">16,500원</span>
+                        </div>
+                        <p class="info">달콤상큼 화사한 제주 왕벚꽃 블렌디드티</p>
+                    </div>  
+                    <a href="#" class="link"></a>                      
+                </div> 
+                <div class="swiper-slide">    
+                    <div class="img"><img src="./images/figchocolat.png" alt="무화과 쇼콜라 블랙티 20입"></div>
+                    <div class="product-con">
+                        <h4>무화과 쇼콜라 블랙티 20입</h4>
+                        <h5 class="price">11,000원</h5>
+                        <p class="info">무르익은 무화과, 너티 초콜렛의 풍미를 담은 블렌디드 홍차</p>
+                    </div>      
+                    <a href="#" class="link"></a>     
+                </div> 
+                            <div class="swiper-slide">    
+                        <div class="img"><img src="./images/lovelyteabox.png" alt="러블리 티 박스 4종 12입"></div>
+                        <div class="product-con">
+                            <h4>러블리 티 박스 4종 12입</h4>
+                            <h5 class="price">24,000원</h5>
+                            <p class="info">나른한 오후, 달콤한 티타임을 위한 사랑스러운 티 박스</p>
+                        </div>    
+                        <a href="#" class="link"></a>       
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="img"><img src="./images/sejak.png" alt="세작 10입"></div>
+                        <div class="product-con">
+                            <h4>세작 10입</h4>
+                            <div class="price-wrap">
+                                <h5 class="sale">30%</h5>
+                                <h5 class="price">11,900원</h5>
+                                <span class="regular-price">17,000원</span>
+                            </div>
+                            <p class="info">제주의 어린 찻잎으로만 만들어 감미로운 풍미와 고운 수색을 지닌 오설록 시그니처 녹차</p>
+                        </div>   
+                        <a href="#" class="link"></a>                     
+                    </div> 
+            </div> 
+            <hr>
+            </div>
+        <div class="progress-bar5">
+            <div class="progress-fill5" id="progressFill5"></div>
+        </div>
+        </div>
+
+    </section>     
+
+
+    <!-- 프로모션 -->
+    <section id="promo">
+        <h2>꽃향이 가득한 4월</h2>
+        <div class="promo-inner">
+            <div class="promo-top">
+                <h3 class="pc">동백이 피는 곶자왈 & 벚꽃향 가득한 올레</h3>
+                <h3 class="mobile">동백이 피는 곶자왈 &<br>벚꽃향 가득한 올레</h3>
+                <img src="./images/20250331123051429UA.jpg" alt="곶자왈, 올레">
+                <p>자연의 풍요로움을 담아낸 특별한 차들은 향긋한 꽃내음과 상큼한 과일 맛이 어우러져 특별한 하루를 선사합니다. 봄이 시작되는 4월에 제주도에서만 느낄 수 있는 자연의 향기를 차 한 잔으로 느껴보는 건 어떠신가요.</p>
+                <a class="more" href="#">더보기</a>
+            </div>
+            <div class="promo-bottom">
+                <h3>새로운 시작,<br>또다른 도전을 응원해!</h3>
+                <span>#입학식 #졸업 #이직 #취업 #개강</span>
+                <p>입학, 새학기, 새 직장...<br>설레는  시작이지만 때로는 긴장되기도 하죠.<br>티타임으로 하루의 시작 혹은 끝에 긴장을 풀어주세요.</p>
+                <a class="more" href="#">더보기</a>
+                <img src="./images/w_img_01h.jpg" alt="도전 응원">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 매장 -->
+    <section id="store">
+        <h2>오설록 매장 탐방</h2>
+        <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store1_teahouse_1979.jpg" alt="오설록 1979"></a>
+                    <span>오설록 1979</span> 
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store2_teahouse_jeju.jpg" alt="제주 오설록 티뮤지엄"></a>
+                    <span>제주 오설록 티뮤지엄</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store3_teahouse_bukchon.jpg" alt="티하우스 북촌점"></a>
+                    <span>티하우스 북촌점</span> 
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store4_teahouse_yongsan.jpg" alt="티하우스 용산파크점"></a>
+                    <span>티하우스 용산파크점</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store5_teahouse_hannam.jpg" alt="티하우스 한남점"></a>
+                    <span>티하우스 한남점</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store6_teahouse_mmca.jpg" alt="티하우스 MMCA"></a>
+                    <span>티하우스 MMCA</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store7_teahouse_haeundae.jpg" alt="티하우스 해운대점"></a>
+                    <span>티하우스 해운대점</span>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/store8_teahouse_gimpo.jpg" alt="티하우스 김포공항점"></a>
+                    <span>티하우스 김포공항</span>
+                </div>
+            </div>
+        </div>
+        <div class="progress-bar">
+            <div class="progress-fill2" id="progressFill2"></div>
+        </div>
+    </section>
+
+    <!-- 브랜드 -->
+    <section id="brand">
+        <h2>브랜드 이야기</h2>
+        <div>
+            <a href="#"> 
+                <video autoplay muted loop playsinline>
+                <source src="./images/203923-922675870.mp4" type="video/mp4">
+                </video>
+            </a>
+            <span>TEA FROM JEJU ISLAND</span>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-menu">
+                <h1 class="footer-logo">
+                    <img src="./images/footer_logo.svg" alt="푸터로고">
+                </h1>
+                <nav>
+                    <ul>
+                        <li>
+                            <span>상담 센터/주문 배송 문의</span>
+                            <ul class="footer-sub">
+                                <li>020-805-5555</li>
+                                <li>help@osulloc.com</li>
+                                <li>평일 09:00 - 18:00</li>
+                                <li>점심 12:00 - 13:00</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>특판 및 대량구매</span>
+                            <ul class="footer-sub">
+                                <li>mall@osulloc.com</li>
+                                <li>카톡ID : osullocmall</li>
+                                <li>평일 09:30 - 17:00</li>
+                                <li>점심 11:30 - 13:00</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>회원 혜택</span>
+                            <ul class="footer-sub">
+                                <li>1 : 1 문의</li>
+                                <li>오설록 멤버십 혜택</li>
+                                <li>뷰티포인트 추후적립</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>소셜미디어</span>
+                            <ul class="footer-sub">
+                                <li>카카오톡</li>
+                                <li>인스타그램</li>
+                                <li>유튜브</li>
+                                <li>틱톡</li>
+                                <li>X (구 트위터)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>LANGUAGE</span>
+                            <ul class="footer-sub">
+                                <li>KOREAN</li>
+                                <li>ENGLISH</li>
+                                <li>CHINESE</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="noti">
+                <div>
+                    <b>공지사항</b>
+                    <hr>
+                    <span>[공지] 오설록 일부 세트 제품 소비자가 조정 안내</span>
+                    <span>[공지] 2025년 설 보자기 상품별 보자기 색 안내</span>
+                    <span>[안내] 오설록 티 크리에이터 4기 모집</span>
+                    <a href="#">더보기</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-info-wrap">
+                <nav class="footer-infoA">
+                    <ul class="footer-service">
+                        <li>회사소개</li>
+                        <li>서비스 이용약관</li>
+                        <li>개인정보 처리방침</li>
+                        <br>
+                        <li>영양정보 처리방침</li>
+                        <li>임직원 할인</li>
+                        <li>전자공고</li>
+                    </ul>
+                    <ul class="footer-company">
+                        <li>(주)오설록</li>
+                        <li>대표이사: 서혁제</li>
+                        <li>주소: 제주특별자치도 서귀포시 안덕면 신화역사로 15 (오설록 티뮤지엄)</li>
+                        <li>사업자등록번호: 390-87-01499 </li>
+                        <li>통신판매업신고번호: 2024-제주안덕-0075</li>
+                        <li>호스팅제공자: (주)오설록</li>
+                        <li><a href="#">사업자 정보 확인</a></li>
+                    </ul>
+                </nav>
+                <p class="footer-infoB">   (주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 입점판매자가 등록한 상품정보 및 거래에 대해서는 책임을 지지 않습니다.</p>
+                <div class="kcp">
+                    <h1 class="kcp-logo"><img src="./images/kcp.png" alt="kcp 로고"></h1>
+                    <div>
+                        <span>NHN KCP 구매안전(에스크로)서비스</span>
+                        <p>고객님의 안전거래를 위해 현금 등으로 결제 시<br>저희 쇼핑몰에 가입한 NHN KCP의
+                        구매안전서비스를 이용하실 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <!-- mobile -->
+        <div class="footer-mobile">
+            <div class="footer-top-mobile">
+                <div class="noti-mobile">
+                    <div>
+                        <b>공지사항</b>
+                        <span>[공지] 오설록 일부 세트 제품 소비자가 조정 안내</span>
+                        <a href="#">더보기</a>
+                    </div>
+                </div>
+                
+                <nav class="footer-menu-mobile">
+                    <ul>
+                        <li>
+                            <span>상담 센터 / 문의</span>
+                            <ul class="footer-sub">
+                                <li>020-805-5555</li>
+                                <li>help@osulloc.com</li>
+                                <li>평일 09:00 - 18:00</li>
+                                <li>점심 12:00 - 13:00</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>특판 및 대량구매</span>
+                            <ul class="footer-sub">
+                                <li>mall@osulloc.com</li>
+                                <li>카톡ID : osullocmall</li>
+                                <li>평일 09:30 - 17:00</li>
+                                <li>점심 11:30 - 13:00</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>회원 혜택</span>
+                            <ul class="footer-sub">
+                                <li>1 : 1 문의</li>
+                                <li>오설록 멤버십 혜택</li>
+                                <li>뷰티포인트 추후적립</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+            <div class="footer-bottom-mobile">
+                <div class="footer-info-wrap">
+                    <nav class="footer-infoA">
+                        <ul class="footer-service">
+                            <li>회사소개</li>
+                            <li>서비스 이용약관</li>
+                            <li>개인정보 처리방침</li>
+                            <li>영양정보 처리방침</li>
+                            <li>임직원 할인</li>
+                            <li>전자공고</li>
+                        </ul>
+                        <ul class="footer-company">
+                            <li>(주)오설록</li>
+                            <li>대표이사: 서혁제</li>
+                            <li>주소: 제주특별자치도 서귀포시 안덕면 신화역사로 15</li>
+                            <li>사업자등록번호: 390-87-01499 </li>
+                            <li>통신판매업신고번호: 2024-제주안덕-0075</li>
+                            <li>호스팅제공자: (주)오설록</li>
+                             <li><a href="#">사업자 정보 확인</a></li>
+                        </ul>
+                    </nav>
+                    <p class="footer-infoB">   (주)오설록은 오설록 브랜드를 제외한 입점 브랜드에 대해서는 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 입점판매자가 등록한 상품정보 및 거래에 대해서는 책임을 지지 않습니다.</p>
+                </div>
+            </div>
+            <div class="footer-last">
+                <div class="sns-icon">
+                    <a href=""><img src="./images/icon1.png" alt="카카오톡"></a>
+                    <a href=""><img src="./images/icon2.png" alt="인스타그램"></a>
+                    <a href=""><img src="./images/icon3.png" alt="유튜브"></a>
+                    <a href=""><img src="./images/icon4.png" alt="틱톡"></a>
+                    <a href=""><img src="./images/icon5.png" alt="x"></a>
+                    
+                </div>
+                <div class="language">
+                    <span>KOREAN</span> 
+                    <img src="./images/icon_arrow.png" alt="화살표">
+                </div>
+                <div class="kcp">
+                    <img src="./images/kcp.png" alt="kcp 로고">
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+
+</body>
+</html>
